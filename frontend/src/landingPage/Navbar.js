@@ -8,11 +8,12 @@ function Navbar() {
         >
             <div class="container p-2">
                 <Link class="navbar-brand" to="/">
-                    <img
+                <p className="logo">BullionX</p>
+                    {/* <img
                         src="media/images/logo.svg"
-                        style={{ width: "25%" }}
+                        
                         alt="Logo"
-                    />
+                    /> */}
                 </Link>
                 <button
                     class="navbar-toggler"
@@ -33,21 +34,25 @@ function Navbar() {
                                     Signup
                                 </Link>
                             </li>
-                            <li class="nav-item">
-                                <Link class="nav-link active" to="/about">
-                                    About
-                                </Link>
-                            </li>
+                           
                             <li class="nav-item">
                                 <Link class="nav-link active" to="/product">
                                     Product
                                 </Link>
                             </li>
+
                             <li class="nav-item">
                                 <Link class="nav-link active" to="/pricing">
                                     Pricing
                                 </Link>
                             </li>
+
+                             <li class="nav-item">
+                                <Link class="nav-link active" to="/about">
+                                    About
+                                </Link>
+                            </li>
+
                             <li class="nav-item">
                                 <Link class="nav-link active" to="/support">
                                     Support
