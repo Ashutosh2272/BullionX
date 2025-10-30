@@ -15,11 +15,29 @@ code {
 .nav-link{
   margin-left: 40px;
 }
-
 .logo{
-  width: "25%";
-  color: rgb(1, 78, 1);
+  margin-right: 400px;
   font-weight: bolder;
-  font-size: 1.5rem;
-  padding-right: 400px;
+}
+#supportHero{
+  background-color: rgb(56, 126, 209);
+  color: white;
+}
+
+#supportHero a{
+  color: white;
+}
+
+#supportWrapper{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 150px;
+}
+
+#supportHero input{
+  padding: 20px 50px;
+  width: 100%;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
 }
