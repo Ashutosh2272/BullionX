@@ -17,7 +17,10 @@ code {
 }
 .logo{
   margin-right: 400px;
-  font-weight: bolder;
+  margin-left: 80px;
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: rgb(18, 71, 18);
 }
 #supportHero{
   background-color: rgb(56, 126, 209);

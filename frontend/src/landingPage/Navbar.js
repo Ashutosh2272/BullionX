@@ -8,7 +8,9 @@ function Navbar() {
         >
             <div class="container p-2">
                 <Link class="navbar-brand" to="/">
-                <p className="logo">BullionX</p>
+                <div className="logo">    
+                    <p>BullionX</p>
+                </div>
                     {/* <img
                         src="media/images/logo.svg"
                         
