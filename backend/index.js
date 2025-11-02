@@ -130,7 +130,6 @@ app.use(bodyParser.json());
 //       day: "+0.32%",
 //     },
 //   ];
-
 //   tempHoldings.forEach((item) => {
 //     let newHolding = new HoldingsModel({
 //       name: item.name,
@@ -213,5 +212,5 @@ app.post("/newOrder", async (req, res) => {
 app.listen(PORT, () => {
   console.log("App started!");
   mongoose.connect(uri);
-  console.log("DB started!");
+  console.log(`DB started at ${PORT}`);
 });
