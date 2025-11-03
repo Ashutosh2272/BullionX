@@ -13,15 +13,15 @@ function Team() {
       >
         <div className="col-6 p-3 text-center">
           <img
-            src="media/images/2333144.jpg"
+            src="media/images/"
             style={{ borderRadius: "100%", width: "50%" }}
           />
-          <h4 className="mt-5">Nithin Kamath</h4>
+          <h4 className="mt-5">Ashutosh Maurya</h4>
           <h6>Founder, CEO</h6>
         </div>
         <div className="col-6 p-3">
           <p>
-            Nithin bootstrapped and founded BullionX in 2010 to overcome the
+            Ashutosh founded BullionX in 2025 to overcome the
             hurdles he faced during his decade long stint as a trader. Today,
             BullionX has changed the landscape of the Indian broking industry.
           </p>
