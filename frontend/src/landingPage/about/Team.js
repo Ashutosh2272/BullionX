@@ -17,7 +17,7 @@ function Team() {
             style={{ borderRadius: "100%", width: "50%" }}
           />
           <h4 className="mt-5">Ashutosh Maurya</h4>
-          <h6>Founder, CEO</h6>
+          <h6>Founder & CEO</h6>
         </div>
         <div className="col-6 p-3">
           <p>
@@ -34,6 +34,43 @@ function Team() {
             Connect on <a href="">Homepage</a> / <a href="">TradingQnA</a> /{" "}
             <a href="">Twitter</a>
           </p>
+        </div>
+      </div>
+      <div className="d-flex justify-content-center">
+        <div className="p-3 text-center">
+          <img
+            src="media/images/"
+            style={{ borderRadius: "100%", width: "50%" }}
+          />
+          <h4 className="mt-5">Avneesh Pandya</h4>
+          <h6>DB, Expert</h6>
+        </div>
+
+        <div className="p-3 text-center">
+          <img
+            src="media/images/"
+            style={{ borderRadius: "100%", width: "50%" }}
+          />
+          <h4 className="mt-5">Anushka</h4>
+          <h6>Frontend, Expert</h6>
+        </div>
+
+        <div className="p-3 text-center">
+          <img
+            src="media/images/"
+            style={{ borderRadius: "100%", width: "50%" }}
+          />
+          <h4 className="mt-5">Ashish Yadav</h4>
+          <h6>Tester</h6>
+        </div>
+
+        <div className="p-3 text-center">
+          <img
+            src="media/images/"
+            style={{ borderRadius: "100%", width: "50%" }}
+          />
+          <h4 className="mt-5">Ayush Panday</h4>
+          <h6>Design & APIs, Expert</h6>
         </div>
       </div>
     </div>
